@@ -2,7 +2,9 @@
 application:
   name: "express-server"
   project: "random"
-  organization: "QoveryCommunity"
+  organization: "QoveryCommunity",
+  publicly_accessible: true
+  port: 8080,
 routers:
 - name: "main-express-server"
   routes:
